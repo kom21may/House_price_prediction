@@ -8,7 +8,7 @@ from dataclasses import dataclass
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-from src.components.data_transformation import DataTransformation
+from src.components.data_tranformation import DataTransformation
 '''
 An artifact is a machine learning term that is used to describe the output created by the training process. Output could be a fully trained model, a model checkpoint, or a file created during the training process.
 '''

@@ -13,7 +13,7 @@ def get_requirements(file_path:str)->List[str]:
         requirements.remove(HYPEN_E_DT)
     return requirements
 setup(name='Regressor project',
-      version='0.0.1',
+      version='0.0.2',
       author='komal',
       author_email='komalkumari199905@gmail.com',
       install_requires=get_requirements('requirements.txt'),
